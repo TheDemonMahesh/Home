@@ -34,6 +34,10 @@
   ],
   "author": "Amir Sanni <amirsanni@gmail.com>",
   "license": "ISC",
+  "engines" : { 
+    "npm" : ">=7.0.0",
+    "node" : ">=16.0.0"
+  },
   "bugs": {
     "url": "https://github.com/amirsanni/livestream-server/issues"
   },
