@@ -21,10 +21,10 @@ const options = {
   cert: fs.readFileSync('./src/cert.pem')
 };
 
-let load = server.createServer(options, app).listen(process.env.PORT || 3006, () => {
+let load = server.createServer(options, app).listen(process.env.PORT1 || 3006, () => {
   console.log(
-    `listening on port: ${process.env.PORT || 3006}, https://10.168.2.73:${
-      process.env.PORT || 3006
+    `listening on port: ${process.env.PORT1 || 3006}, https://10.168.2.73:${
+      process.env.PORT1 || 3006
     }`
   );
 });
